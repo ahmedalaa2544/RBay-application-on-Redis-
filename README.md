@@ -21,23 +21,18 @@ Install Node.js
 Installation
 Clone the Repository
 
-bash
-Copy code
+
 git clone https://github.com/ahmedalaa2544/RBay-application-on-Redis-
 Open the Project in Your Code Editor
 
-bash
-Copy code
 cd RBay-application-on-Redis-
 Install the Dependencies
 
-bash
-Copy code
+
 npm install
 Create a .env File in the root directory of the project and add the following variables. (Replace the placeholders with your Redis server details.)
 
-env
-Copy code
+
 _REDIS_HOST=<your_redis_host>
 _REDIS_PORT=<your_redis_port>
 _REDIS_PW=<your_redis_password>
@@ -47,8 +42,7 @@ REDIS_PORT=<your_redis_port>
 REDIS_PW=<your_redis_password>
 Run the Project
 
-bash
-Copy code
+
 npm run dev
 Usage
 Once the project is running, you can access it locally through your browser. You will be able to:
@@ -58,10 +52,6 @@ Browse the most expensive items, bids ending soonest, and most viewed items on t
 Participate in auctions and view bid history with a 2D graph
 Manage your posted items through the user dashboard
 Use the smart search bar to find items efficiently
-Contributing
-Contributions are welcome! If you have any suggestions or improvements, feel free to create a pull request or open an issue.
-
-.
 
 Contact
 If you have any questions or want to connect, feel free to reach out:
